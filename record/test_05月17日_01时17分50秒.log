@@ -1,0 +1,88 @@
+Console output is being logged to: /home/gyf/HC/Multimodal-Sentiment-Analysis/Pytorch/record/test_05月17日_01时17分50秒.log
+Config(version='For Mosi 7992', log_dir='../record', dropout_rate=0.7, batch_size=64, shuffle=True, learning_rate=0.0001, epochs=10000, random_seed=42, L1=1e-07, L2=1e-09)
+(2250, 98, 409)
+(678, 98, 409)
+Data loaded and processed.
+Epoch 1, Train Loss: 0.5592, Test Loss: 0.7086, Test Accuracy: 50.00%, Best Test Accuracy: 50.00%
+Epoch 2, Train Loss: 0.2106, Test Loss: 0.7139, Test Accuracy: 50.00%, Best Test Accuracy: 50.00%
+Epoch 3, Train Loss: 0.1293, Test Loss: 0.6981, Test Accuracy: 50.39%, Best Test Accuracy: 50.39%
+Epoch 4, Train Loss: 0.1033, Test Loss: 0.6952, Test Accuracy: 57.28%, Best Test Accuracy: 57.28%
+Epoch 5, Train Loss: 0.0937, Test Loss: 0.6937, Test Accuracy: 61.00%, Best Test Accuracy: 61.00%
+Epoch 6, Train Loss: 0.0894, Test Loss: 0.6928, Test Accuracy: 63.32%, Best Test Accuracy: 63.32%
+Epoch 7, Train Loss: 0.0867, Test Loss: 0.6920, Test Accuracy: 65.23%, Best Test Accuracy: 65.23%
+Epoch 8, Train Loss: 0.0845, Test Loss: 0.6913, Test Accuracy: 66.37%, Best Test Accuracy: 66.37%
+Epoch 9, Train Loss: 0.0828, Test Loss: 0.6906, Test Accuracy: 67.41%, Best Test Accuracy: 67.41%
+Epoch 10, Train Loss: 0.0809, Test Loss: 0.6898, Test Accuracy: 68.17%, Best Test Accuracy: 68.17%
+Epoch 11, Train Loss: 0.0804, Test Loss: 0.6891, Test Accuracy: 68.73%, Best Test Accuracy: 68.73%
+Epoch 12, Train Loss: 0.0790, Test Loss: 0.6885, Test Accuracy: 68.88%, Best Test Accuracy: 68.88%
+Epoch 13, Train Loss: 0.0782, Test Loss: 0.6878, Test Accuracy: 69.58%, Best Test Accuracy: 69.58%
+Epoch 14, Train Loss: 0.0774, Test Loss: 0.6873, Test Accuracy: 69.91%, Best Test Accuracy: 69.91%
+Epoch 15, Train Loss: 0.0765, Test Loss: 0.6869, Test Accuracy: 70.05%, Best Test Accuracy: 70.05%
+Epoch 16, Train Loss: 0.0758, Test Loss: 0.6867, Test Accuracy: 69.93%, Best Test Accuracy: 70.05%
+Epoch 17, Train Loss: 0.0747, Test Loss: 0.6864, Test Accuracy: 70.08%, Best Test Accuracy: 70.08%
+Epoch 18, Train Loss: 0.0740, Test Loss: 0.6863, Test Accuracy: 70.09%, Best Test Accuracy: 70.09%
+Epoch 19, Train Loss: 0.0738, Test Loss: 0.6861, Test Accuracy: 70.16%, Best Test Accuracy: 70.16%
+Epoch 20, Train Loss: 0.0739, Test Loss: 0.6860, Test Accuracy: 70.32%, Best Test Accuracy: 70.32%
+Epoch 21, Train Loss: 0.0727, Test Loss: 0.6859, Test Accuracy: 70.45%, Best Test Accuracy: 70.45%
+Epoch 22, Train Loss: 0.0730, Test Loss: 0.6859, Test Accuracy: 70.54%, Best Test Accuracy: 70.54%
+Epoch 23, Train Loss: 0.0721, Test Loss: 0.6859, Test Accuracy: 70.58%, Best Test Accuracy: 70.58%
+Epoch 24, Train Loss: 0.0729, Test Loss: 0.6859, Test Accuracy: 70.46%, Best Test Accuracy: 70.58%
+Epoch 25, Train Loss: 0.0711, Test Loss: 0.6859, Test Accuracy: 70.63%, Best Test Accuracy: 70.63%
+Epoch 26, Train Loss: 0.0712, Test Loss: 0.6859, Test Accuracy: 70.64%, Best Test Accuracy: 70.64%
+Epoch 27, Train Loss: 0.0722, Test Loss: 0.6860, Test Accuracy: 70.75%, Best Test Accuracy: 70.75%
+Epoch 28, Train Loss: 0.0705, Test Loss: 0.6860, Test Accuracy: 70.69%, Best Test Accuracy: 70.75%
+Epoch 29, Train Loss: 0.0710, Test Loss: 0.6860, Test Accuracy: 70.67%, Best Test Accuracy: 70.75%
+Epoch 30, Train Loss: 0.0706, Test Loss: 0.6860, Test Accuracy: 70.74%, Best Test Accuracy: 70.75%
+Epoch 31, Train Loss: 0.0700, Test Loss: 0.6860, Test Accuracy: 70.68%, Best Test Accuracy: 70.75%
+Epoch 32, Train Loss: 0.0702, Test Loss: 0.6861, Test Accuracy: 70.67%, Best Test Accuracy: 70.75%
+Epoch 33, Train Loss: 0.0699, Test Loss: 0.6861, Test Accuracy: 70.77%, Best Test Accuracy: 70.77%
+Epoch 34, Train Loss: 0.0698, Test Loss: 0.6861, Test Accuracy: 70.81%, Best Test Accuracy: 70.81%
+Epoch 35, Train Loss: 0.0696, Test Loss: 0.6862, Test Accuracy: 70.83%, Best Test Accuracy: 70.83%
+Epoch 36, Train Loss: 0.0694, Test Loss: 0.6862, Test Accuracy: 70.69%, Best Test Accuracy: 70.83%
+Epoch 37, Train Loss: 0.0689, Test Loss: 0.6862, Test Accuracy: 70.80%, Best Test Accuracy: 70.83%
+Epoch 38, Train Loss: 0.0690, Test Loss: 0.6862, Test Accuracy: 70.82%, Best Test Accuracy: 70.83%
+Epoch 39, Train Loss: 0.0696, Test Loss: 0.6862, Test Accuracy: 70.76%, Best Test Accuracy: 70.83%
+Epoch 40, Train Loss: 0.0687, Test Loss: 0.6862, Test Accuracy: 70.78%, Best Test Accuracy: 70.83%
+Epoch 41, Train Loss: 0.0685, Test Loss: 0.6862, Test Accuracy: 70.77%, Best Test Accuracy: 70.83%
+Epoch 42, Train Loss: 0.0683, Test Loss: 0.6862, Test Accuracy: 70.80%, Best Test Accuracy: 70.83%
+Epoch 43, Train Loss: 0.0686, Test Loss: 0.6863, Test Accuracy: 70.76%, Best Test Accuracy: 70.83%
+Epoch 44, Train Loss: 0.0690, Test Loss: 0.6863, Test Accuracy: 70.75%, Best Test Accuracy: 70.83%
+Epoch 45, Train Loss: 0.0687, Test Loss: 0.6863, Test Accuracy: 70.76%, Best Test Accuracy: 70.83%
+Epoch 46, Train Loss: 0.0681, Test Loss: 0.6863, Test Accuracy: 70.76%, Best Test Accuracy: 70.83%
+Epoch 47, Train Loss: 0.0679, Test Loss: 0.6863, Test Accuracy: 70.73%, Best Test Accuracy: 70.83%
+Epoch 48, Train Loss: 0.0681, Test Loss: 0.6863, Test Accuracy: 70.76%, Best Test Accuracy: 70.83%
+Epoch 49, Train Loss: 0.0687, Test Loss: 0.6863, Test Accuracy: 70.80%, Best Test Accuracy: 70.83%
+Epoch 50, Train Loss: 0.0678, Test Loss: 0.6863, Test Accuracy: 70.77%, Best Test Accuracy: 70.83%
+Epoch 51, Train Loss: 0.0674, Test Loss: 0.6863, Test Accuracy: 70.78%, Best Test Accuracy: 70.83%
+Epoch 52, Train Loss: 0.0683, Test Loss: 0.6863, Test Accuracy: 70.80%, Best Test Accuracy: 70.83%
+Epoch 53, Train Loss: 0.0686, Test Loss: 0.6863, Test Accuracy: 70.75%, Best Test Accuracy: 70.83%
+Epoch 54, Train Loss: 0.0680, Test Loss: 0.6863, Test Accuracy: 70.72%, Best Test Accuracy: 70.83%
+Epoch 55, Train Loss: 0.0674, Test Loss: 0.6863, Test Accuracy: 70.71%, Best Test Accuracy: 70.83%
+Epoch 56, Train Loss: 0.0673, Test Loss: 0.6864, Test Accuracy: 70.72%, Best Test Accuracy: 70.83%
+Epoch 57, Train Loss: 0.0672, Test Loss: 0.6864, Test Accuracy: 70.69%, Best Test Accuracy: 70.83%
+Epoch 58, Train Loss: 0.0673, Test Loss: 0.6864, Test Accuracy: 70.91%, Best Test Accuracy: 70.91%
+Epoch 59, Train Loss: 0.0671, Test Loss: 0.6864, Test Accuracy: 70.70%, Best Test Accuracy: 70.91%
+Epoch 60, Train Loss: 0.0671, Test Loss: 0.6864, Test Accuracy: 70.65%, Best Test Accuracy: 70.91%
+Epoch 61, Train Loss: 0.0667, Test Loss: 0.6865, Test Accuracy: 70.72%, Best Test Accuracy: 70.91%
+Epoch 62, Train Loss: 0.0671, Test Loss: 0.6864, Test Accuracy: 70.59%, Best Test Accuracy: 70.91%
+Epoch 63, Train Loss: 0.0671, Test Loss: 0.6864, Test Accuracy: 70.65%, Best Test Accuracy: 70.91%
+Epoch 64, Train Loss: 0.0665, Test Loss: 0.6864, Test Accuracy: 70.77%, Best Test Accuracy: 70.91%
+Epoch 65, Train Loss: 0.0672, Test Loss: 0.6864, Test Accuracy: 70.56%, Best Test Accuracy: 70.91%
+Epoch 66, Train Loss: 0.0671, Test Loss: 0.6864, Test Accuracy: 70.57%, Best Test Accuracy: 70.91%
+Epoch 67, Train Loss: 0.0667, Test Loss: 0.6864, Test Accuracy: 70.58%, Best Test Accuracy: 70.91%
+Epoch 68, Train Loss: 0.0666, Test Loss: 0.6864, Test Accuracy: 70.52%, Best Test Accuracy: 70.91%
+Epoch 69, Train Loss: 0.0662, Test Loss: 0.6864, Test Accuracy: 70.64%, Best Test Accuracy: 70.91%
+Epoch 70, Train Loss: 0.0664, Test Loss: 0.6863, Test Accuracy: 70.68%, Best Test Accuracy: 70.91%
+Epoch 71, Train Loss: 0.0663, Test Loss: 0.6863, Test Accuracy: 70.52%, Best Test Accuracy: 70.91%
+Epoch 72, Train Loss: 0.0662, Test Loss: 0.6864, Test Accuracy: 70.73%, Best Test Accuracy: 70.91%
+Epoch 73, Train Loss: 0.0663, Test Loss: 0.6864, Test Accuracy: 70.80%, Best Test Accuracy: 70.91%
+Traceback (most recent call last):
+  File "/home/gyf/HC/Multimodal-Sentiment-Analysis/Pytorch/7992_mosei.py", line 274, in <module>
+    train_loss, train_accuracy = train(model, train_loader, criterion, optimizer, device, lambda_L2=config.L2, lambda_L1=config.L1, epoch = epoch)
+  File "/home/gyf/HC/Multimodal-Sentiment-Analysis/Pytorch/7992_mosei.py", line 134, in train
+    loss.backward()
+  File "/home/gyf/miniconda3/envs/SignLan/lib/python3.9/site-packages/torch/_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "/home/gyf/miniconda3/envs/SignLan/lib/python3.9/site-packages/torch/autograd/__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

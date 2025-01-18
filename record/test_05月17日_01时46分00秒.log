@@ -1,0 +1,16 @@
+Console output is being logged to: /home/gyf/HC/Multimodal-Sentiment-Analysis/Pytorch/record/test_05月17日_01时46分00秒.log
+Config(version='For Mosi 7992', log_dir='../record', dropout_rate=0.7, batch_size=64, shuffle=True, learning_rate=0.0001, epochs=10000, random_seed=42, L1=1e-07, L2=1e-09)
+(2250, 98, 409)
+(678, 98, 409)
+Data loaded and processed.
+cuda
+Traceback (most recent call last):
+  File "/home/gyf/HC/Multimodal-Sentiment-Analysis/Pytorch/7992_mosei.py", line 266, in <module>
+    summary(model, [(98, 300), (98, 74), (98, 35)], device=device_str)
+  File "/home/gyf/miniconda3/envs/SignLan/lib/python3.9/site-packages/torchsummary/torchsummary.py", line 72, in summary
+    model(*x)
+  File "/home/gyf/miniconda3/envs/SignLan/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/gyf/miniconda3/envs/SignLan/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+TypeError: forward() missing 1 required positional argument: 'mask'

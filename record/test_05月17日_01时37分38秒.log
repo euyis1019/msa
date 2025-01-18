@@ -1,0 +1,12 @@
+Console output is being logged to: /home/gyf/HC/Multimodal-Sentiment-Analysis/Pytorch/record/test_05月17日_01时37分38秒.log
+Config(version='For Mosi 7992', log_dir='../record', dropout_rate=0.7, batch_size=64, shuffle=True, learning_rate=0.0001, epochs=10000, random_seed=42, L1=1e-07, L2=1e-09)
+(2250, 98, 409)
+(678, 98, 409)
+Data loaded and processed.
+cuda:0
+Traceback (most recent call last):
+  File "/home/gyf/HC/Multimodal-Sentiment-Analysis/Pytorch/7992_mosei.py", line 266, in <module>
+    summary(model, [(1, 300), (1, 74), (1, 35)], device=device)
+  File "/home/gyf/miniconda3/envs/SignLan/lib/python3.9/site-packages/torchsummary/torchsummary.py", line 44, in summary
+    device = device.lower()
+AttributeError: 'torch.device' object has no attribute 'lower'

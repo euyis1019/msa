@@ -1,0 +1,12 @@
+Tensor shapes logged from: /home/gyf/HC/Multimodal-Sentiment-Analysis/Pytorch/msa_封装测试.py, line 150
+
+train_text: (74, 63, 100)
+test_text: (19, 63, 100)
+train_audio: (74, 63, 73)
+test_audio: (19, 63, 73)
+train_video: (74, 63, 100)
+test_video: (19, 63, 100)
+train_label: (74, 63, 2)
+test_label: (19, 63, 2)
+train_mask: (74, 63)
+test_mask: (19, 63)

@@ -1,0 +1,27 @@
+Console output is being logged to: /home/gyf/HC/Multimodal-Sentiment-Analysis/Pytorch/record/console_output_05月15日_07时16分45秒.log
+Config(log_dir='../record', dropout_rate=0.7, batch_size=30, shuffle=True, learning_rate=0.0001, epochs=10000, random_seed=42, L1=1e-07, L2=1e-09)
+Data loaded and processed.
+Traceback (most recent call last):
+  File "/home/gyf/HC/Multimodal-Sentiment-Analysis/Pytorch/trimodal_attention_models2.py", line 278, in <module>
+    train_loss, train_accuracy = train(model, train_loader, criterion, optimizer, device, lambda_L2=config.L2, lambda_L1=config.L1, epoch = epoch)
+  File "/home/gyf/HC/Multimodal-Sentiment-Analysis/Pytorch/trimodal_attention_models2.py", line 127, in train
+    outputs = model(texts, audios, videos, masks)
+  File "/home/gyf/miniconda3/envs/SignLan/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/gyf/miniconda3/envs/SignLan/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/gyf/HC/Multimodal-Sentiment-Analysis/Pytorch/trimodal_attention_models2.py", line 94, in forward
+    text_embeddings = self.text_branch(text)
+  File "/home/gyf/miniconda3/envs/SignLan/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/gyf/miniconda3/envs/SignLan/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/gyf/miniconda3/envs/SignLan/lib/python3.9/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/home/gyf/miniconda3/envs/SignLan/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/gyf/miniconda3/envs/SignLan/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/gyf/miniconda3/envs/SignLan/lib/python3.9/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (3000x63 and 100x128)
